@@ -86,7 +86,7 @@ EspMQTTClient::EspMQTTClient(
   // other
   _enableDebugMessages = false;
   _drasticResetOnConnectionFailures = false;
-  _connectionEstablishedCallback = onConnectionEstablished;
+  //_connectionEstablishedCallback = onConnectionEstablished;
   _connectionEstablishedCount = 0;
 }
 
